@@ -25,6 +25,8 @@ var libPQBlocklist20_1 = blocklist{
 	"pq.TestConnListen":                                        "41522",
 	"pq.TestConnUnlisten":                                      "41522",
 	"pq.TestConnUnlistenAll":                                   "41522",
+	"pq.TestConnectorWithNoticeHandler_Simple":                 "unknown",
+	"pq.TestConnectorWithNotificationHandler_Simple":           "unknown",
 	"pq.TestContextCancelBegin":                                "41335",
 	"pq.TestContextCancelExec":                                 "41335",
 	"pq.TestContextCancelQuery":                                "41335",
