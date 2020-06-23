@@ -1,0 +1,22 @@
+Unable to start a single node cluster in windows 10..
+
+cockroach start-single-node command is giving the below result -
+* ERROR: ERROR: failed to initialize node: unable to load named timezones
+* HINT: See: https://github.com/cockroachdb/cockroach/issues/36864
+* --
+* Check that the time zone database is installed on your system, or
+* set the ZONEINFO environment variable to a Go time zone .zip archive.
+*
+ERROR: failed to initialize node: unable to load named timezones
+HINT: See: https://github.com/cockroachdb/cockroach/issues/36864
+--
+Check that the time zone database is installed on your system, or
+set the ZONEINFO environment variable to a Go time zone .zip archive.
+Failed running "start-single-node"
+
+My timezone details are below:
+Found zoneinfo env: true, location:'C:\zoneinfo.zip' .
+-------------------------
+2020-06-23T20:25:53.6545+05:30
+
+Please help in resolving this issue and start the single cockroachDB node.
